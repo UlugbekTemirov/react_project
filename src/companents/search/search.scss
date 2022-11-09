@@ -1,0 +1,36 @@
+@import '../../assets/css/var.scss';
+.search{
+  &__form{
+    display: flex;
+    // border: 1px solid ;
+    border-radius:25px ;
+    overflow: hidden;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+    background-color: #fff;
+    margin-right: 45px;
+    input{
+      border: none;
+      outline: none;
+      padding: 15px 0;
+      font-size: 15px;
+      flex: 1;
+      &::placeholder{
+        color: #BBC2D0;
+      }
+    }
+    
+  }
+  &__icon{
+    width: 100px;
+    background-color: $green;
+    margin-right: -15px;
+    display: flex;
+    justify-content: center;
+    img{
+     cursor: pointer;
+     padding:12px;
+   }
+  }
+}

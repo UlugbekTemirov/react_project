@@ -1,0 +1,33 @@
+.breadcrumbs {
+  display: flex;
+  // margin: 20px 0 40px;
+  font-family: sans-serif;
+  a{
+    color: #8e9499;
+    font-size: 12px;
+    line-height: 21px;
+    &:hover{
+      color:#333;
+    }
+  }
+  li {
+    &:after{
+      content: '/';
+      margin: 0px 4px;
+      color: #8e9499;
+    }
+    &:last-child{
+      a{
+        color: #333;
+      }
+      &::after{
+        content: unset;
+      }
+    }
+  }
+}
+  @media(max-width:768px){
+    .breadcrumbs{
+      margin-bottom: 10px;
+    }
+  }

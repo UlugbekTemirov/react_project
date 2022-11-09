@@ -1,0 +1,29 @@
+@import '../../assets/css/var.scss';
+.pogination{
+  display: flex;
+  justify-content:space-between ;
+  margin: 30px 0 20px 0;
+  margin-top: auto;
+  &__number{
+    button{
+      width: 36px;
+      height: 36px;
+      font-size: 16px;
+      font-weight: 500;
+      border-radius: 10px;
+      margin:0 10px ;
+      // margin-top: 10px ;
+      &.active,
+      &:hover{
+        background-color: $green;
+        color: #fff;
+      }
+    }
+    .click{
+      img{
+        width: 10px;
+        height: 19px;
+      }
+    }
+  }
+}
