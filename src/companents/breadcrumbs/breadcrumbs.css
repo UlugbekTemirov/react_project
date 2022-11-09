@@ -1,0 +1,29 @@
+.breadcrumbs {
+  display: flex;
+  font-family: sans-serif;
+}
+.breadcrumbs a {
+  color: #8e9499;
+  font-size: 12px;
+  line-height: 21px;
+}
+.breadcrumbs a:hover {
+  color: #333;
+}
+.breadcrumbs li:after {
+  content: "/";
+  margin: 0px 4px;
+  color: #8e9499;
+}
+.breadcrumbs li:last-child a {
+  color: #333;
+}
+.breadcrumbs li:last-child::after {
+  content: unset;
+}
+
+@media (max-width: 768px) {
+  .breadcrumbs {
+    margin-bottom: 10px;
+  }
+}/*# sourceMappingURL=breadcrumbs.css.map */

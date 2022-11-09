@@ -1,0 +1,49 @@
+.d-flex {
+  display: flex;
+}
+
+.align-item-center {
+  align-items: center;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.text-center {
+  align-items: center;
+}
+
+.container {
+  max-width: 1400px;
+  min-width: 100%;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  box-sizing: content-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: 0;
+  background-color: unset;
+  cursor: pointer;
+}
+
+li {
+  list-style-type: none;
+}
+
+.ml-60 {
+  margin-left: 60px;
+}
+
+.mr_60 {
+  margin-right: 60px;
+}/*# sourceMappingURL=helper.css.map */

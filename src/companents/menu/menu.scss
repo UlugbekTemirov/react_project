@@ -1,37 +1,37 @@
-@import '../../assets/css/var.scss';
-.menu{
+@import "../../assets/css/var.scss";
+.menu {
   width: 265px;
   background-color: $blue;
   border-top-right-radius: 30px;
   height: calc(100vh - 67px);
-  &__links{
-    padding:60px 0 ;
+  &__links {
+    padding: 60px 0;
     color: #fff;
     font-size: 16px;
     font-family: sans-serif;
     margin-left: 40px;
     // margin-bottom: 358px;
-    .active{
+    .active {
       background-color: #fff;
-      border-top-left-radius:30px ;
-      border-bottom-left-radius:30px ;
-      a{
+      border-top-left-radius: 30px;
+      border-bottom-left-radius: 30px;
+      a {
         color: $blue;
       }
-      img{
+      img {
         filter: brightness(0);
       }
     }
   }
-  &__link{
-    &:hover{
+  &__link {
+    &:hover {
       background-color: #fff;
-      border-top-left-radius:30px ;
-      border-bottom-left-radius:30px ;
-      a{
+      border-top-left-radius: 30px;
+      border-bottom-left-radius: 30px;
+      a {
         color: $blue;
       }
-      img{
+      img {
         filter: brightness(0);
       }
     }
@@ -40,14 +40,13 @@
     padding: 10px 16px;
     margin: 20px 0;
     line-height: 40px;
-    img{
+    img {
       width: 20px;
       height: 20px;
     }
-    a{
+    a {
       margin-left: 15px;
       color: #fff;
     }
-    
   }
 }

@@ -1,0 +1,56 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__logo {
+  font-family: sans-serif;
+}
+.header__logo span {
+  font-weight: 400;
+  font-size: 16px;
+  text-transform: uppercase;
+  line-height: 30px;
+  padding: 25px 0;
+}
+.header__right {
+  display: flex;
+  align-items: center;
+}
+.header__right--info {
+  margin-right: 45px;
+  position: relative;
+}
+.header__right--info span {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: -10px;
+  left: 8px;
+  background-color: #00C48C;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  font-size: 10px;
+  color: #fff;
+}
+.header__right--sainup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #3D639D;
+  padding: 18px 63px;
+  border-bottom-left-radius: 30px;
+  color: #fff;
+  font-family: sans-serif;
+  border: 1px solid #000;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2509803922);
+  border-top: none;
+}
+.header__right--sainup img {
+  background-color: #fff;
+  margin-left: 10px;
+  padding: 5px;
+  border-radius: 20px;
+}/*# sourceMappingURL=header.css.map */
